@@ -59,6 +59,18 @@
                         // Reset the color.
                         Console.ResetColor();
                         break;
+                    case 'e':
+                        Console.BackgroundColor = ConsoleColor.Gray;
+                        Console.Write("".PadRight(((Console.WindowWidth - 1) / 20)));
+                        // Reset the color.
+                        Console.ResetColor();
+                        break;
+                    case 'E':
+                        Console.BackgroundColor = ConsoleColor.DarkGray;
+                        Console.Write("".PadRight(((Console.WindowWidth - 1) / 20)));
+                        // Reset the color.
+                        Console.ResetColor();
+                        break;
 
                 }
 
